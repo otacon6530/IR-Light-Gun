@@ -1,23 +1,6 @@
-# SAMCO - Arduino Powered IR Light Gun
+#Commodore Vic-20 Arduino Powered IR Light Gun
 
-For information on how to use this libraries please visit my YouTube channel https://www.youtube.com/c/samcorulz.
+This is a fork of the SAMCO - Arduino Powered IR Light Gun project with a focus on applying the same concept, but altered to interface with the commodore Vic-20.
 
-The SAMCO is a Namco light gun with the insides replaced with an Arduino micro controller and DF Robot IR positioning camera and works as HID mouse on LCD (flat screen) TV/monitors.
-
-Gun currently works with Mame in RetroPie (for Raspberry Pi), PSX Beetle (Windows) and PCSX2 (Windows).
-
-Parts:  
-Adafruit ItsyBitsy 32u4 (3V or 5V), M0 & M4  
-DF Robot IR positioning camera  
-Wii USB sensor bar (not dolphin bar, dolphin bar needs wiimote to turn it on)
-
-Features:  
-Quick calibration  
-Pause/recaibration  
-Tilt correction  
-
-In this project I've used libraries from DFRobot & Jonathan Edgecome. Original Libraries can be found at...
-https://github.com/DFRobot/DFRobotIRPosition  
-https://github.com/jonathanedgecombe/absmouse
-
-If you haven't brought a PCB but enjopyed this code please consider making a small donation to help me contuine developing and supplying support for this project https://www.paypal.me/sammywizbang. Cheers Sam(co)
+How it works? 
+I plan to alter the hardware and software to control two digital pentiometers in place of passing the mouse position via usb. The Commodore Vic-20 currently supports two paddles that are essentially just two potentiometers and two buttons. My thought is to translate the potentiometer values to XP and YP values in a Commdore Vic-20 program.
